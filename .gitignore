@@ -1,0 +1,25 @@
+# System-specific files
+.DS_Store
+
+# Environment files (both frontend and backend)
+**/.env
+.env
+
+# Node dependencies
+**/node_modules/
+
+# Build output (Vite + Tailwind)
+**/dist/
+**/build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# IDE and editor configs
+.vscode/
+.idea/
+
+# Optional: macOS Trash or system folders
+.Trashes
